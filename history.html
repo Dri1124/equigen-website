@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>History, Trust &amp; Your Health | EquiGen Health Foundation</title>
+<style>
+:root{
+  --purple:#5f3b8c; --purple2:#8056aa; --lav:#f3eef8; --lav2:#e6daf1;
+  --ink:#26212b; --muted:#655e69; --white:#fff; --gold:#c69b52;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:#fbfafc;line-height:1.65}
+header{background:linear-gradient(135deg,#4e2d77,#8056aa);color:white;padding:64px 20px}
+.wrap{max-width:1050px;margin:auto}
+.eyebrow{text-transform:uppercase;letter-spacing:.12em;font-size:.8rem;font-weight:700;opacity:.9}
+h1{font-family:Georgia,serif;font-size:clamp(2.3rem,6vw,4.6rem);line-height:1.05;margin:.25em 0}
+header p{max-width:760px;font-size:1.15rem}
+nav{position:sticky;top:0;z-index:5;background:white;border-bottom:1px solid #e7e1ea;padding:12px 20px}
+nav .wrap{display:flex;gap:12px;flex-wrap:wrap}
+nav a{color:var(--purple);text-decoration:none;font-weight:700;font-size:.9rem}
+section{padding:64px 20px}
+section.alt{background:var(--lav)}
+h2{font-family:Georgia,serif;color:var(--purple);font-size:2.2rem;margin-top:0}
+h3{color:var(--purple)}
+.lead{font-size:1.12rem;max-width:850px}
+.notice{background:white;border-left:5px solid var(--gold);padding:20px;border-radius:8px;box-shadow:0 5px 18px #0000000b}
+.timeline{display:grid;gap:14px;margin-top:28px}
+.timeline button{width:100%;text-align:left;background:white;border:1px solid #ddd3e5;border-radius:12px;padding:18px;cursor:pointer;font:inherit;color:var(--ink)}
+.timeline button strong{color:var(--purple);font-size:1.05rem}
+.timeline .detail{display:none;padding:14px 18px 4px;color:var(--muted)}
+.timeline button.open .detail{display:block}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px;margin-top:25px}
+.card{background:white;border:1px solid #e1d8e8;border-radius:14px;padding:22px;box-shadow:0 5px 20px #4e2d770d}
+.tnn{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:22px}
+.tnn div{background:white;padding:22px;border-radius:14px;border-top:5px solid var(--purple2)}
+.tnn span{display:inline-block;font-weight:800;color:var(--purple);letter-spacing:.08em;font-size:.8rem}
+.topicBtns,.tabs{display:flex;flex-wrap:wrap;gap:10px;margin:20px 0}
+.topicBtns button,.tabs button,.printBtn{border:0;border-radius:999px;padding:11px 16px;background:#e8dff0;color:#4e2d77;font-weight:700;cursor:pointer}
+.topicBtns button.active,.tabs button.active,.printBtn{background:var(--purple);color:white}
+.panel{background:white;border-radius:14px;padding:24px;border:1px solid #dfd4e6}
+.questions{padding-left:22px}
+.source a{color:var(--purple);font-weight:700}
+footer{background:#2f203c;color:white;padding:40px 20px}
+.small{font-size:.9rem;color:var(--muted)}
+footer .small{color:#ddd2e5}
+@media(max-width:720px){.tnn{grid-template-columns:1fr}section{padding:45px 18px}}
+@media print{nav,.topicBtns,.tabs,.printBtn{display:none}body{background:white}section{padding:25px}.panel,.card{box-shadow:none}}
+</style>
+<style>
+.chapterNav{display:flex;gap:9px;flex-wrap:wrap;margin:22px 0}.chapterNav button,.consentChoices button{border:1px solid #bba8ce;background:#fff;color:#55317e;border-radius:12px;padding:12px 16px;cursor:pointer;font-weight:700}.chapterNav button[aria-pressed="true"],.consentChoices button[aria-pressed="true"]{background:#5f3b8c;color:white}.historyGrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:16px}.historyCard{background:white;border:1px solid #ded3e9;border-radius:16px;padding:20px;box-shadow:0 5px 18px #4e2d7710}.historyCard h3{margin:8px 0}.historyCard .year{font-size:.85rem;letter-spacing:.08em;color:#73508d;font-weight:800}.historyCard summary{color:#5f3b8c;font-weight:800;cursor:pointer;margin-top:14px}.historyCard details p{margin:10px 0}.historyCard a{color:#5f3b8c}.historyCard .prompt{background:#f3eef8;border-radius:10px;padding:11px}.consentBox{background:white;border:1px solid #d9cbe5;border-radius:18px;padding:25px}.consentChoices{display:flex;gap:10px;flex-wrap:wrap}.consentResult{background:#f3eef8;padding:18px;border-radius:12px;margin-top:15px;min-height:95px}.sectionIntro{max-width:850px}.chapterCounter{color:#655e69;font-size:.92rem}
+</style>
+<style>#source-transparency{padding:38px 0}#source-transparency .source-note{background:#f5eff8;border-left:5px solid #734282;border-radius:14px;padding:clamp(20px,4vw,36px);color:#302439}#source-transparency .source-note-kicker{text-transform:uppercase;letter-spacing:.09em;font-size:.76rem;font-weight:700;color:#754985;margin-top:0}#source-transparency h2{margin-top:.35em}#source-transparency p{line-height:1.7}</style></head>
+<body>
+<header>
+<div class="wrap">
+<div class="eyebrow">EquiGen Health Foundation • Learning Hub</div>
+<h1>History, Trust &amp; Your Health</h1>
+<p>Understanding the past. Navigating healthcare today. Advocating for your future.</p>
+</div>
+</header>
+<nav><div class="wrap">
+<a href="#why">Why Trust Matters</a><a href="#history">History</a><a href="#deep-history">Explore More History</a><a href="#consent-explorer">Whose Consent?</a><a href="#then-now-next">Then • Now • Next</a>
+<a href="#genetics">Genetics &amp; Privacy</a><a href="#advocate">Advocate for Yourself</a>
+</div></nav>
+<section id="why"><div class="wrap">
+<h2>Why We’re Talking About Trust</h2>
+<p class="lead">For generations, Black communities have experienced both extraordinary advances in medicine and profound injustices within healthcare and medical research. Understanding this history matters.</p>
+<p>Medical mistrust did not develop without context. It has been shaped by documented experiences of exploitation, exclusion, discrimination, lack of informed consent, and unequal treatment.</p>
+<div class="notice"><strong>EquiGen’s approach:</strong> Building healthier relationships with healthcare should not require forgetting the past. We can understand what happened, learn what protections exist today, recognize where inequities remain, and ask informed questions about our care.</div>
+</div></section>
+<section class="alt" id="history"><div class="wrap">
+<h2>How Did We Get Here?</h2>
+<p class="lead">Select an event to explore how history shaped modern questions about consent, research, biological samples, and trust.</p>
+<div class="timeline">
+<button onclick="toggleItem(this)"><strong>1800s — Exploitation and experimentation</strong><div class="detail">Enslaved Black people were subjected to medical experimentation in a system in which meaningful consent was impossible. Some advances in American medicine developed within this deeply unequal environment. Learning this history helps explain why medical authority can carry a different historical meaning for Black communities.</div></button>
+<button onclick="toggleItem(this)"><strong>1840s — Gynecologic experimentation on enslaved women</strong><div class="detail">J. Marion Sims performed repeated surgical experiments on enslaved Black women, including Anarcha, Lucy and Betsey. Their experiences are now an important part of discussions about medical ethics, consent, racism, pain and the history of gynecology.</div></button>
+<button onclick="toggleItem(this)"><strong>1932–1972 — U.S. Public Health Service Syphilis Study at Tuskegee</strong><div class="detail">Hundreds of Black men were enrolled in a study without adequate informed consent. Researchers did not provide participants adequate treatment even after penicillin became the standard treatment for syphilis. The men were not deliberately infected with syphilis—a common misconception—but the deception and withholding of treatment were profound ethical violations.</div></button>
+<button onclick="toggleItem(this)"><strong>1951 — Henrietta Lacks and HeLa cells</strong><div class="detail">Cells taken from Henrietta Lacks during cervical cancer treatment became the first widely used immortal human cell line. Her cells contributed enormously to biomedical research, but they were taken and used without her knowledge or consent, raising enduring questions about tissue, consent, privacy and benefit.</div></button>
+<button onclick="toggleItem(this)"><strong>1974–1979 — Modern research protections expand</strong><div class="detail">The National Research Act strengthened oversight of human-subject research and established the National Commission. The 1979 Belmont Report articulated three foundational ethical principles: respect for persons, beneficence and justice.</div></button>
+<button onclick="toggleItem(this)"><strong>Today — Genomics creates new trust questions</strong><div class="detail">DNA can reveal information about an individual and biological relatives. Modern genetic testing and research therefore raise questions about privacy, data sharing, sample storage, representation, consent and who benefits from genomic discoveries.</div></button>
+</div>
+<p class="small">This timeline is an educational overview rather than a complete history of racism and medicine.</p>
+</div></section>
+<section id="deep-history"><div class="wrap"><div class="eyebrow" style="color:#6c448c">Beyond the familiar stories</div><h2>Explore Four Chapters of Medical History</h2><p class="lead sectionIntro">Inspired in part by Harriet A. Washington’s <em>Medical Apartheid</em>, this expanded timeline introduces less-discussed episodes alongside major ethical reforms. Choose a chapter, open a story, and consider the question it raises for healthcare today.</p><div class="notice"><strong>A note on historical accuracy:</strong> These are independently sourced educational summaries, not excerpts from the book. A model law such as the Uniform Anatomical Gift Act is not itself an abuse, and laws governing donations vary by state. Historical wrongs should not be confused with every form of modern clinical care or research.</div><div aria-label="Select historical chapter" class="chapterNav" role="group"><button aria-pressed="true" onclick="chooseChapter('1',this)">1 · Bodies &amp; Medicine</button><button aria-pressed="false" onclick="chooseChapter('2',this)">2 · Consent &amp; Coercion</button><button aria-pressed="false" onclick="chooseChapter('3',this)">3 · Rights &amp; Reform</button><button aria-pressed="false" onclick="chooseChapter('4',this)">4 · Genetics Today</button><button aria-pressed="false" onclick="chooseChapter('all',this)">View all</button></div><p aria-live="polite" class="chapterCounter" id="chapterCounter"></p><div class="historyGrid" id="historyGrid"><article class="historyCard" data-chapter="1"><span class="year">1800s</span><h3>Anatomical exploitation and grave robbing</h3><p>Medical schools sometimes acquired bodies from grave robbers, disproportionately affecting poor and Black communities. The practice denied families control over burial and bodily dignity.</p><details><summary>Why this matters today + source</summary><p class="prompt"><strong>Ask:</strong> How should institutions document the origins of human remains and respond to descendants?</p><a href="https://www.nlm.nih.gov/exhibition/visibleproofs/galleries/cases/body.html" rel="noopener noreferrer" target="_blank">Explore a source ↗</a></details></article><article class="historyCard" data-chapter="1"><span class="year">1845–1849</span><h3>Anarcha, Lucy, Betsey and gynecologic surgery</h3><p>J. Marion Sims performed repeated experimental fistula operations on enslaved women in Alabama. Historical accounts debate aspects of treatment, but enslavement fundamentally constrained the possibility of free consent.</p><details><summary>Why this matters today + source</summary><p class="prompt"><strong>Ask:</strong> Can consent be freely given when another person has legal power over your body?</p><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC2563360/" rel="noopener noreferrer" target="_blank">Explore a source ↗</a></details></article><article class="historyCard" data-chapter="2"><span class="year">1929–1974</span><h3>North Carolina sterilization program</h3><p>North Carolina authorized involuntary sterilization under its eugenics laws. The program disproportionately harmed vulnerable people, including Black women and girls. The Eugenics Board was established in 1933; the program continued into the 1970s.</p><details><summary>Why this matters today + source</summary><p class="prompt"><strong>Ask:</strong> Who decides whether a medical intervention is truly voluntary?</p><a href="https://www.ncdcr.gov/" rel="noopener noreferrer" target="_blank">Explore a source ↗</a></details></article><article class="historyCard" data-chapter="2"><span class="year">1932–1972</span><h3>The Tuskegee syphilis study</h3><p>U.S. Public Health Service researchers misled Black male participants and failed to offer adequate treatment, including after penicillin became standard care. Participants were not intentionally infected by researchers.</p><details><summary>Why this matters today + source</summary><p class="prompt"><strong>Ask:</strong> How can participants confirm what treatment or alternatives are available?</p><a href="https://www.cdc.gov/tuskegee/about/index.html" rel="noopener noreferrer" target="_blank">Explore a source ↗</a></details></article><article class="historyCard" data-chapter="2"><span class="year">1951</span><h3>Henrietta Lacks and HeLa</h3><p>Cells collected during Henrietta Lacks’s cervical cancer care were used to create the HeLa cell line without her knowledge or consent. Her family later raised questions about privacy and benefit sharing.</p><details><summary>Why this matters today + source</summary><p class="prompt"><strong>Ask:</strong> What permission is requested for storage, sharing, or future research use of a sample?</p><a href="https://www.genome.gov/about-genomics/fact-sheets/Henrietta-Lacks-and-the-HeLa-Cell-Line" rel="noopener noreferrer" target="_blank">Explore a source ↗</a></details></article><article class="historyCard" data-chapter="2"><span class="year">1951–1974</span><h3>Holmesburg Prison experiments</h3><p>Incarcerated people, many of them Black men, were recruited into chemical, dermatological and pharmaceutical experiments in Philadelphia. Serious harms and problems with meaningful consent were later documented.</p><details><summary>Why this matters today + source</summary><p class="prompt"><strong>Ask:</strong> Can a person freely decline research when confined or financially pressured?</p><a href="https://collegeofphysicians.org/our-work/health-and-advocacy-initiatives/college-statement-regarding-holmesburg-prison-experiments/" rel="noopener noreferrer" target="_blank">Explore a source ↗</a></details></article><article class="historyCard" data-chapter="3"><span class="year">1947</span><h3>The Nuremberg Code</h3><p>Following the Doctors’ Trial, the Nuremberg Code articulated the central importance of voluntary consent in human experimentation. It did not automatically eliminate unethical research.</p><details><summary>Why this matters today + source</summary><p class="prompt"><strong>Ask:</strong> What makes research consent voluntary and informed?</p><a href="https://history.nih.gov/display/history/Nuremberg+Code" rel="noopener noreferrer" target="_blank">Explore a source ↗</a></details></article><article class="historyCard" data-chapter="3"><span class="year">1968</span><h3>Uniform Anatomical Gift Act (UAGA)</h3><p>A model state law provided a framework for anatomical gifts after death, including donation for transplantation, therapy, research and education. It is a legal reform, not an instance of abuse; state enactments and details vary.</p><details><summary>Why this matters today + source</summary><p class="prompt"><strong>Ask:</strong> Who can authorize an anatomical gift, and what happens if the person objected?</p><a href="https://www.law.cornell.edu/wex/uniform_anatomical_gift_act" rel="noopener noreferrer" target="_blank">Explore a source ↗</a></details></article><article class="historyCard" data-chapter="3"><span class="year">1974</span><h3>National Research Act</h3><p>The National Research Act created a national commission to develop ethical principles for research involving people and helped strengthen oversight structures.</p><details><summary>Why this matters today + source</summary><p class="prompt"><strong>Ask:</strong> Who reviews the risks and benefits of a proposed study?</p><a href="https://www.hhs.gov/ohrp/regulations-and-policy/belmont-report/index.html" rel="noopener noreferrer" target="_blank">Explore a source ↗</a></details></article><article class="historyCard" data-chapter="3"><span class="year">1979</span><h3>Belmont Report</h3><p>The Belmont Report articulated respect for persons, beneficence, and justice as ethical principles guiding research involving human subjects.</p><details><summary>Why this matters today + source</summary><p class="prompt"><strong>Ask:</strong> Does this study recruit fairly, minimize harm, and respect participants’ choices?</p><a href="https://www.hhs.gov/ohrp/regulations-and-policy/belmont-report/index.html" rel="noopener noreferrer" target="_blank">Explore a source ↗</a></details></article><article class="historyCard" data-chapter="3"><span class="year">1987 / 2006</span><h3>Revisions to the UAGA</h3><p>Revised model acts updated procedures for anatomical gifts and authorization. A model law is not automatically binding everywhere; applicable state law and the kind of donation matter.</p><details><summary>Why this matters today + source</summary><p class="prompt"><strong>Ask:</strong> Does a body donation for education differ from a clinical tissue sample or an organ donor registration?</p><a href="https://www.uniformlaws.org/viewdocument/enactment-kit?CommunityKey=015e18ad-4806-4dff-b011-8e1ebc0d1d0f" rel="noopener noreferrer" target="_blank">Explore a source ↗</a></details></article><article class="historyCard" data-chapter="4"><span class="year">1990s–today</span><h3>Genetic data, privacy and representation</h3><p>Genetic research creates opportunities for better prevention and care while raising concerns about long-term storage, sharing, ancestry representation and future uses of data.</p><details><summary>Why this matters today + source</summary><p class="prompt"><strong>Ask:</strong> What happens to my sample and data if I withdraw from a study?</p><a href="https://www.genome.gov/about-genomics/policy-issues/Privacy" rel="noopener noreferrer" target="_blank">Explore a source ↗</a></details></article></div></div></section>
+<section class="alt" id="consent-explorer"><div class="wrap"><div class="eyebrow" style="color:#6c448c">Interactive learning</div><h2>Whose Body? Whose Consent? Whose Decision?</h2><p class="lead">The rules can differ depending on whether a person is alive, the type of sample, the purpose, and applicable law. Choose a scenario to explore the questions worth asking.</p><div class="consentBox"><div aria-label="Consent scenarios" class="consentChoices" role="group"><button aria-pressed="true" onclick="chooseConsent(0,this)">A blood sample for testing</button><button aria-pressed="false" onclick="chooseConsent(1,this)">Joining a research study</button><button aria-pressed="false" onclick="chooseConsent(2,this)">An anatomical gift after death</button><button aria-pressed="false" onclick="chooseConsent(3,this)">An old stored tissue sample</button></div><div aria-live="polite" class="consentResult" id="consentResult"></div></div><p class="small">Educational overview only. Consent requirements, legal authority, privacy protections and withdrawal rights depend on circumstances and jurisdiction. Ask the institution for its current policies.</p></div></section>
+<section id="then-now-next"><div class="wrap">
+<h2>Then. Now. Next.</h2>
+<p class="lead">History becomes useful when we connect it to the decisions people face today.</p>
+<div class="topicBtns">
+<button class="active" onclick="showTNN('lacks',this)">Henrietta Lacks</button>
+<button onclick="showTNN('tuskegee',this)">Tuskegee Study</button>
+<button onclick="showTNN('genomics',this)">Genomic Research</button>
+</div>
+<div class="tnn" id="tnnPanel"></div>
+</div></section>
+<section class="alt" id="genetics"><div class="wrap">
+<h2>What Does This Have to Do With Genetics?</h2>
+<p class="lead">Genetic information can be powerful. It can also feel deeply personal. Asking questions about what happens to your DNA is reasonable.</p>
+<div class="cards">
+<div class="card"><h3>My DNA</h3><p>Why is this test being recommended? What genes or conditions are being evaluated? Could the result reveal information relevant to my relatives?</p></div>
+<div class="card"><h3>My Sample</h3><p>Will my blood, saliva or tissue be stored? For how long? Can I decline research use? What happens to the sample when testing is complete?</p></div>
+<div class="card"><h3>My Data</h3><p>Who can access my genetic information? Will it be de-identified? Can it be shared with researchers or placed in a database?</p></div>
+<div class="card"><h3>Representation</h3><p>People of African ancestry have historically been underrepresented in many genomic datasets. Representation matters because genetic variation differs across populations and influences what science is able to learn and interpret.</p></div>
+</div>
+<div class="notice" style="margin-top:24px"><strong>What about GINA?</strong> The federal Genetic Information Nondiscrimination Act generally prohibits genetic-information discrimination in health insurance and employment, but it does not provide the same protections for life, disability, or long-term-care insurance. Other laws and state protections may also apply.</div>
+</div></section>
+<section id="advocate"><div class="wrap">
+<h2>Your Rights. Your Questions. Your Choice.</h2>
+<p class="lead">Trust does not have to mean accepting everything without question. Informed healthcare includes understanding your options and participating in decisions about your body.</p>
+<div class="tabs">
+<button class="active" onclick="showQuestions('testing',this)">Before Genetic Testing</button>
+<button onclick="showQuestions('research',this)">Before Joining Research</button>
+<button onclick="showQuestions('visit',this)">At a Healthcare Visit</button>
+</div>
+<div class="panel" id="questionPanel"></div>
+<button class="printBtn" onclick="window.print()" style="margin-top:18px">Print / Save These Questions</button>
+</div></section>
+<section class="section" id="source-transparency"><div class="wrap"><div class="source-note"><p class="source-note-kicker">A note on scientific sources, public trust &amp; transparency</p><h2>Using Federal Health Resources With Informed Trust</h2><p>Agencies such as the Centers for Disease Control and Prevention (CDC), National Institutes of Health (NIH), and other federal public health institutions have made foundational contributions to medical research, disease prevention, laboratory science, and public health. Their scientific work remains an important resource for healthcare professionals, researchers, and communities.</p><p>At the same time, public-facing websites and historical accounts may not tell the whole story. Information can be incomplete, revised, removed, or shaped by changing institutional priorities and government administrations. These limitations matter, particularly when researching the experiences of Black women and communities whose contributions, mistreatment, or concerns have historically been overlooked.</p><p>EquiGen may reference federal resources because they contain valuable scientific and historical information—not because we endorse every institutional decision or consider any single source complete. We encourage readers to compare information with peer-reviewed research, original historical records, independent scholarship, and community accounts, and to ask questions when perspectives or details are missing.</p><p><strong>Our approach:</strong> Respect the evidence. Acknowledge the gaps. Center informed choice, accountability, and transparency.</p></div></div></section><section class="alt"><div class="wrap">
+<h2>Learn From Trusted Sources</h2>
+<div class="cards">
+<div class="card source"><h3>CDC</h3><p>Learn about the U.S. Public Health Service Syphilis Study at Tuskegee and its ethical legacy.</p><a href="https://www.cdc.gov/tuskegee/" rel="noopener" target="_blank">Visit CDC →</a></div>
+<div class="card source"><h3>HHS — Belmont Report</h3><p>Read the ethical principles that continue to guide human-subject research.</p><a href="https://www.hhs.gov/ohrp/regulations-and-policy/belmont-report/" rel="noopener" target="_blank">Visit HHS →</a></div>
+<div class="card source"><h3>NIH / NHGRI</h3><p>Explore genetic discrimination, privacy, genomics and federal protections.</p><a href="https://www.genome.gov/about-genomics/policy-issues/Genetic-Discrimination" rel="noopener" target="_blank">Visit NHGRI →</a></div>
+<div class="card source"><h3>NIH — Henrietta Lacks</h3><p>Learn about the HeLa genome, the Lacks family and NIH's data-use agreement.</p><a href="https://osp.od.nih.gov/hela-cells/" rel="noopener" target="_blank">Visit NIH →</a></div>
+</div>
+</div></section>
+<footer><div class="wrap">
+<strong>EquiGen Health Foundation</strong>
+<p class="small">This content is for educational purposes only and is not medical or legal advice. Laws, research practices and institutional policies can change. Ask your healthcare provider, genetic counselor, research team or an appropriate professional questions specific to your situation.</p>
+</div></footer>
+<script>
+const tnn={
+lacks:[
+["THEN","Henrietta Lacks’ cells were taken during medical treatment and used for research without her knowledge or consent."],
+["NOW","Modern research has stronger consent and oversight requirements, although the rules governing stored biospecimens and secondary research can be complex."],
+["NEXT","Ask: Will my sample be stored? Could it be used for research? Who can access associated data? What choices do I have?"]
+],
+tuskegee:[
+["THEN","Black men were deceived and denied adequate treatment in a decades-long federal study. The abuse became a defining example of research misconduct."],
+["NOW","Human-subject research is governed by informed-consent requirements, institutional review, federal regulations and ethical standards designed to protect participants."],
+["NEXT","Ask: What is the purpose of this study? What are the risks and benefits? Who reviewed it? Can I leave the study? What happens to my data if I withdraw?"]
+],
+genomics:[
+["THEN","Many communities were excluded from the benefits of research while also experiencing exploitation and unequal treatment."],
+["NOW","Genomic medicine is advancing rapidly, but representation, privacy, equitable access and benefit-sharing remain important concerns."],
+["NEXT","Ask who is represented in the evidence behind a test, how your DNA and data will be used, and whether research participation is optional."]
+]};
+function showTNN(key,btn){
+ document.querySelectorAll('.topicBtns button').forEach(b=>b.classList.remove('active')); btn.classList.add('active');
+ document.getElementById('tnnPanel').innerHTML=tnn[key].map(x=>`<div><span>${x[0]}</span><p>${x[1]}</p></div>`).join('');
+}
+function toggleItem(el){el.classList.toggle('open')}
+const qs={
+testing:["Why are you recommending this genetic test?","What genes or conditions are being tested?","What could a positive, negative or uncertain result mean?","Who will have access to my results?","Will my sample or genetic data be stored?","Can my sample or data be used for research?","Can I decline research use and still receive the clinical test?","Could the result have implications for my biological relatives?","Is genetic counseling available before or after testing?"],
+research:["What question is this research trying to answer?","What will I be asked to do?","What are the potential risks and benefits?","Who reviewed and approved this research?","Will my DNA, samples or health information be stored?","Could my information be shared with other researchers?","How will my privacy be protected?","Will I receive individual results or research findings?","Can I withdraw, and what happens to data already collected?"],
+visit:["What are my options, including doing nothing for now?","What are the benefits and risks of each option?","Why are you recommending this test, medication or procedure for me?","Is there anything about my family history that changes your recommendation?","What symptoms or changes should make me seek follow-up care?","Can you explain that in another way?","Can I have written information to review later?","Would a specialist or genetic counselor be helpful?"]
+};
+function showQuestions(key,btn){
+ document.querySelectorAll('.tabs button').forEach(b=>b.classList.remove('active')); btn.classList.add('active');
+ document.getElementById('questionPanel').innerHTML='<h3>Questions you can ask</h3><ul class="questions">'+qs[key].map(q=>`<li>${q}</li>`).join('')+'</ul>';
+}
+showTNN('lacks',document.querySelector('.topicBtns button'));
+showQuestions('testing',document.querySelector('.tabs button'));
+</script>
+<script>
+function chooseChapter(ch,btn){document.querySelectorAll('.chapterNav button').forEach(b=>b.setAttribute('aria-pressed',String(b===btn)));let n=0;document.querySelectorAll('.historyCard').forEach(c=>{let show=ch==='all'||c.dataset.chapter===ch;c.hidden=!show;if(show)n++});document.getElementById('chapterCounter').textContent=n+' historical entries shown';}
+const consentScenarios=[
+'<strong>Clinical test:</strong> Ask why the sample is collected, what the test can and cannot show, whether leftover material is retained, and whether separate research use is optional. Clinical care and research have different rules.',
+'<strong>Research participation:</strong> Ask who reviews the study, what risks exist, what information is shared, whether participation is voluntary, and what withdrawal can or cannot reverse after data are used.',
+'<strong>After-death donation:</strong> Anatomical gift laws govern who can authorize gifts and for which purposes. A person’s own documented decisions may control. Ask about state law, donation scope, respectful handling, and return or disposition of remains.',
+'<strong>Previously collected tissue:</strong> Permitted research uses depend on the context, identifiability, applicable rules, consent and institutional policies. Ask whether samples are identifiable, who can access them, and whether additional consent is required.'
+];
+function chooseConsent(i,btn){document.querySelectorAll('.consentChoices button').forEach(b=>b.setAttribute('aria-pressed',String(b===btn)));document.getElementById('consentResult').innerHTML=consentScenarios[i]}
+document.addEventListener('DOMContentLoaded',()=>{chooseChapter('1',document.querySelector('.chapterNav button'));chooseConsent(0,document.querySelector('.consentChoices button'))});
+</script>
+</body>
+</html>

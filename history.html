@@ -13,7 +13,7 @@
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
 body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:#fbfafc;line-height:1.65}
-header{background:linear-gradient(135deg,#4e2d77,#8056aa);color:white;padding:64px 20px}
+header{background:linear-gradient(90deg,rgba(37,16,60,.88),rgba(57,24,87,.65) 55%,rgba(55,22,82,.30)),url('assets/history-trust-hero-clean.png') center center/cover no-repeat,#4e2d77;color:white;padding:76px 20px;min-height:340px}
 .wrap{max-width:1050px;margin:auto}
 .eyebrow{text-transform:uppercase;letter-spacing:.12em;font-size:.8rem;font-weight:700;opacity:.9}
 h1{font-family:Georgia,serif;font-size:clamp(2.3rem,6vw,4.6rem);line-height:1.05;margin:.25em 0}
@@ -48,6 +48,7 @@ footer{background:#2f203c;color:white;padding:40px 20px}
 footer .small{color:#ddd2e5}
 @media(max-width:720px){.tnn{grid-template-columns:1fr}section{padding:45px 18px}}
 @media print{nav,.topicBtns,.tabs,.printBtn{display:none}body{background:white}section{padding:25px}.panel,.card{box-shadow:none}}
+@media(max-width:640px){header{background-position:55% center;padding:58px 20px;min-height:310px;background-image:linear-gradient(90deg,rgba(37,16,60,.91),rgba(57,24,87,.72)),url('assets/history-trust-hero-clean.png')}}
 </style>
 <style>
 .chapterNav{display:flex;gap:9px;flex-wrap:wrap;margin:22px 0}.chapterNav button,.consentChoices button{border:1px solid #bba8ce;background:#fff;color:#55317e;border-radius:12px;padding:12px 16px;cursor:pointer;font-weight:700}.chapterNav button[aria-pressed="true"],.consentChoices button[aria-pressed="true"]{background:#5f3b8c;color:white}.historyGrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:16px}.historyCard{background:white;border:1px solid #ded3e9;border-radius:16px;padding:20px;box-shadow:0 5px 18px #4e2d7710}.historyCard h3{margin:8px 0}.historyCard .year{font-size:.85rem;letter-spacing:.08em;color:#73508d;font-weight:800}.historyCard summary{color:#5f3b8c;font-weight:800;cursor:pointer;margin-top:14px}.historyCard details p{margin:10px 0}.historyCard a{color:#5f3b8c}.historyCard .prompt{background:#f3eef8;border-radius:10px;padding:11px}.consentBox{background:white;border:1px solid #d9cbe5;border-radius:18px;padding:25px}.consentChoices{display:flex;gap:10px;flex-wrap:wrap}.consentResult{background:#f3eef8;padding:18px;border-radius:12px;margin-top:15px;min-height:95px}.sectionIntro{max-width:850px}.chapterCounter{color:#655e69;font-size:.92rem}

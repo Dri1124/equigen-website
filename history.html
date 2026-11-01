@@ -186,7 +186,7 @@ const consentScenarios=[
 function chooseConsent(i,btn){document.querySelectorAll('.consentChoices button').forEach(b=>b.setAttribute('aria-pressed',String(b===btn)));document.getElementById('consentResult').innerHTML=consentScenarios[i]}
 document.addEventListener('DOMContentLoaded',()=>{chooseChapter('1',document.querySelector('.chapterNav button'));chooseConsent(0,document.querySelector('.consentChoices button'))});
 </script>
-<nav class="eq-learning-links" aria-label="Explore EquiGen learning modules"><strong>Continue exploring EquiGen</strong><div><a href="genetics101.html">Genetics 101</a><a href="protein-kitchen.html">Protein Kitchen</a><a href="fh.html">Familial Hypercholesterolemia</a><a href="hereditary-breast-cancer.html">Hereditary Breast Cancer</a><a href="history.html">History, Trust &amp; Your Health</a></div></nav><script id="eq-history-question-copy">
+<nav class="eq-learning-links" aria-label="Explore EquiGen learning modules"><strong>Continue exploring EquiGen</strong><div><a href="genetics101.html">Genetics 101</a><a href="fh.html">Familial Hypercholesterolemia</a><a href="hereditary-breast-cancer.html">Hereditary Breast Cancer</a><a href="history.html">History, Trust &amp; Your Health</a></div></nav><script id="eq-history-question-copy">
 function copyHistoryQuestions(button){
  const root=button.closest('#advocate');
  const selected=[...root.querySelectorAll('#questionPanel input[type="checkbox"]:checked')].map(input=>'• '+input.value);
